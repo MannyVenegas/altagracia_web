@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const sendEmail = require("./utils/sendEmail");
 
 const app = express();
+dotenv.config();
 
 //Middleware
 app.use(express.json());
@@ -28,7 +29,7 @@ app.post("/api/sendemail", async (req, res) => {
     }
 })
 
-const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
+const PORT = 8080;
+  app.listen(8080, () => {
     console.log(`Server running on port ${PORT}...`);
   })
