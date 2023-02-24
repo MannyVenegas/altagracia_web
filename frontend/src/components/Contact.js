@@ -16,7 +16,7 @@ const Contact = () => {
     <div id='contact' className='contact-us'>
       <div className='text-center'>
         <h1>Contacto</h1>
-        <p>Escríbenos y obten tu presupuesto.</p>
+        <p>Escríbenos y obtén tu presupuesto.</p>
       </div>
       <div className='form-container'>
         <form onSubmit={handleSubmit(onSubmit)} >
