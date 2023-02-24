@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const sendEmail = require("./utils/sendEmail");
 
 const app = express();
-dotenv.config();
 
 //Middleware
 app.use(express.json());
