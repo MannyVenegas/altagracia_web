@@ -8,6 +8,7 @@ const Contact = () => {
     console.log(data);
     const response = await axios.post("https://altagracia-web.onrender.com/api/sendemail", data)
     reset();
+    alert("Gracias, te contactaremos lo antés posible!")
   };
 
 
