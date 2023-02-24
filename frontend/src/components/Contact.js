@@ -6,7 +6,7 @@ const Contact = () => {
   const { register,reset, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = async (data) => {
     console.log(data);
-    const response = await axios.post("http://localhost:3000/api/sendemail", data)
+    const response = await axios.post("https://altagracia-web.onrender.com/api/sendemail", data)
     reset();
   };
 
