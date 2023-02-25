@@ -12,22 +12,22 @@ const Clients = () => {
       <div className='clients c1'>
         <img alt='icon' src={img}/>
         <h3>Coffee Break</h3>
-        <p>Fusce hendrerit malesuadnia. Donec semper semper sem vitae malesuada.a laci</p>
+        <p>Ofrecemos nuestros servicios de coffee break para reuniones institucionales o ejecutivas, con variedad de ofertas y posibilidades.</p>
       </div>
       <div className='clients c2'>
         <img alt='icon' src={img3}/>
         <h2>Cafetería</h2>
-        <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada.</p>
+        <p>Ofrecemos servicios de operación de espacios de cafetería en edificios institucionales o privados.</p>
       </div>
       <div className='clients c3'>
         <img alt='icon' src={img4}/>
         <h2>Eventos</h2>
-        <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada.</p>
+        <p>Ofrecemos servicios de renta de mobiliario y equipo para eventos institucionales y ejecutivos.</p>
       </div>
       <div className='clients c4'>
         <img alt='icon' src={img2}/>
-        <h2>Montajes</h2>
-        <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada.</p>
+        <h2>Box Lunch</h2>
+        <p>Ofrecemos servicios de box lunch de acuerdo a sus necesidades y presupuesto con variedad de opciones. </p>
       </div>
     </section>
     </>
